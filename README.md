@@ -35,13 +35,13 @@ The guide was sent by the TCIA Portal support team
 3. Compute the `md5sum` codes for the locally downloaded files. We will compare them with the md5sum codes after uploading data onto the remote server.
     * Linux with `md5sum`: 
         ```shell
-        # sorting makes it easier to compare to the remote server
+        # sorting makes it easier to compare to the remote server version
         find . -type f -name "*.svs" | sort | xargs md5sum > local_hashes.txt
         ```
     * Mac with `md5`
         ```shell
         # adding -r produces linux-like format
-        # sorting makes it easier to compare to the remote server
+        # sorting makes it easier to compare to the remote server version
         find . -type f -name "*.svs" | sort | xargs md5 -r > local_hashes.txt
         ```
     * Mac with `md5` and `parallel` to make it faster
@@ -49,7 +49,7 @@ The guide was sent by the TCIA Portal support team
         brew install parallel
 
         # adding -r produces linux-like format
-        # sorting makes it easier to compare to the remote server
+        # sorting makes it easier to compare to the remote server version
         # parallel -k results in the same order, while omitting -k might not preserve the order
         find . -type f -name "*.svs" | sort | parallel -k md5 -r > local_hashes.txt
         ```
