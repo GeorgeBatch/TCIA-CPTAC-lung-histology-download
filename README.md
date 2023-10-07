@@ -42,8 +42,6 @@ The guide was sent by the TCIA Portal support team
         # adding -r produces linux-like format
         # sorting makes it easier to compare to the remote server
         find . -type f -name "*.svs" | sort | xargs md5 -r > local_hashes.txt
-
-        # 
         ```
     * Mac with `md5` and `parallel` to make it faster
         ```shell
