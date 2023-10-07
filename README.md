@@ -28,7 +28,7 @@ Clicking download cohort downloads: [./tcia-luad-lusc-cohort.csv](./tcia-luad-lu
 The guide was sent by the TCIA Portal support team
 [https://github.com/kirbyju/TCIA_Notebooks/blob/main/TCIA_Aspera_CLI_Downloads.ipynb](https://github.com/kirbyju/TCIA_Notebooks/blob/main/TCIA_Aspera_CLI_Downloads.ipynb)
 
-## Download process to a remote server if you do not have the ability to download to the server directly
+## Getting the data onto a remote server if you do not have the ability to download to the server directly
 
 1. If you do not have 450GB free on your computer (for downloading and uploading one package at a time), get an external hard drive and make it writable
 2. Download LUAD and LSCC with Aspera Connect onto the external drive (one by one if needed) - location of download can be changed in Aspera Connect App's settings. Aspera Connect ensures the integrity of the files so at this point the files should be intact.
