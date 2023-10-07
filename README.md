@@ -54,7 +54,7 @@ The guide was sent by the TCIA Portal support team
         find . -type f -name "*.svs" | sort | parallel -k md5 -r > local_hashes.txt
         ```
 
-3. Upload from the external drive onto the cluster using rsync with flag `-aP`. See [rsync tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories).
+3. Upload from the external drive onto the cluster using `rsync` with flag `-aP`. See [rsync tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories).
 
 4. Compute the remote server hashes
 ```shell
