@@ -32,7 +32,7 @@ The guide was sent by the TCIA Portal support team
 
 1. If you do not have 450GB free on your computer (for downloading and uploading one package at a time), get an external hard drive and make it writable
 2. Download LUAD and LSCC with Aspera Connect onto the external drive (one by one if needed) - location of download can be changed in Aspera Connect App's settings. Aspera Connect ensures the integrity of the files so at this point the files should be intact.
-3. Compute the `md5sum` codes for the locally downloaded files. We will compare them with the md5sum codes after uploading data onto the remote server.
+3. Compute the `md5sum` codes for the locally downloaded files. We will compare them with the md5sum codes after uploading data onto the remote server. **My md5sum_hashes are in [md5sum_hashes.txt](./md5sum_hashes.txt), but they are not the official ones. I was not able to found any md5sum hashes shared by the TCIA team.**
     * Linux with `md5sum`: 
         ```shell
         # sorting makes it easier to compare to the remote server version
@@ -78,4 +78,4 @@ find . -type f -name "*.svs" | sort | xargs md5sum > server_hashes.txt
 diff local_hashes.txt formatted_server_hashes.txt
 ```
 
-My md5sum_hashes are in [md5sum_hashes.txt](./md5sum_hashes.txt), but they are not the official ones. I was not able to found any md5sum hashes shared by the TCIA team.
+**Disclaimer: My md5sum_hashes are in [md5sum_hashes.txt](./md5sum_hashes.txt), but they are not the official ones. I was not able to found any md5sum hashes shared by the TCIA team.**
