@@ -21,7 +21,7 @@ Note, for some reason, Adenocarcinoma and Squamous Cell Carcinoma do not show up
 	* 212 subjects
 	* https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948248
 
-Clicking download cohort downloads: [./tcia-luad-lusc-cohort.csv](./tcia-luad-lusc-cohort.csv)
+Clicking "download cohort" downloads: [./tcia-luad-lusc-cohort.csv](./tcia-luad-lusc-cohort.csv)
 
 ## Guide for downloading with command line
 
